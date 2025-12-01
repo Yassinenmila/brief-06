@@ -2,5 +2,20 @@
     <p>© 2025 DigitalWave Solutions. Tous droits réservés.</p>
   </footer>
 </body>
-</html>
+</html>               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
