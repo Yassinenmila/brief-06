@@ -14,5 +14,6 @@
 
         include __DIR__.'/footer.php';
     ?>
+    <script src="../assets/script.js"></script>
 </body>
 </html>
