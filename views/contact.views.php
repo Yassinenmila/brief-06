@@ -1,4 +1,4 @@
-
+<?php include __DIR__."/../process/contact.php"?>
 <section class="container mx-auto py-16">
     <div id="toast" class="hidden fixed top-5 left-1/2 -translate-x-1/2 text-white px-6 py-3 rounded shadow" data-type="<?= $type ?>" data-message="<?= $message ?>"></div>
     <h2 class="text-3xl font-bold mb-6 text-center">Contactez-nous</h2>

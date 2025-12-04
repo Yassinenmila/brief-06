@@ -2,8 +2,7 @@
 include_once __DIR__ . "/assets/library.php";
 
 $pages=['about','contact','home','services'];
-
-//data des services dans fishier json 
+ 
 
 $data= json_decode(file_get_contents(__DIR__."/data/data_service.json"));
 

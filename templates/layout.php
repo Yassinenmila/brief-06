@@ -10,7 +10,7 @@
     <?php
         include __DIR__ .'/header.php';
 
-        include __DIR__ .'/../views/'.$page.'.php';
+        include __DIR__ .'/../views/'.$page.'.views.php';
 
         include __DIR__.'/footer.php';
     ?>
