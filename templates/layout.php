@@ -6,14 +6,14 @@
     <title>Digitalwave - <?=$page?> </title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <?php
-        include __DIR__ .'/header.php';
+<body class="">
 
-        include __DIR__ .'/../views/'.$page.'.views.php';
+    <?php require_once __DIR__ .'/header.php';?>
+  
+    <?php  require_once __DIR__ .'/../views/'.$page.'.views.php';?>
 
-        include __DIR__.'/footer.php';
-    ?>
+    <?php  require_once __DIR__.'/footer.php'; ?>
+   
     <script src="../assets/script.js"></script>
 </body>
 </html>

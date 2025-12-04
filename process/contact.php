@@ -1,5 +1,5 @@
 <?php
-
+$header="nmilayassine0000@gmail.com";
 $nom = $_POST['nom'] ?? "";
 $email = $_POST['email'] ?? "";
 $desc = $_POST['desc'] ?? "";
@@ -11,5 +11,5 @@ if (empty($nom) || empty($email) || empty($desc)) {
 } else {
     $_SESSION['toast'] ="Message envoyer avec succes !!";
 }
-// mail($email,"nouveau message dans le contact",$desc);
+mail($email,"nouveau message dans le contact",$desc,$header);
 ?>

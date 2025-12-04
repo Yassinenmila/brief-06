@@ -5,6 +5,5 @@ $file=__DIR__.$url['path'];
 
 if (is_file($file)) {
     return false; 
-    
 }
 ?>

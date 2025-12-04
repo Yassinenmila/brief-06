@@ -1,4 +1,4 @@
-<?php include __DIR__ . "/../process/contact.php" ?>
+<?php require_once __DIR__ . "/../process/contact.php" ?>
 <section class="container mx-auto py-16">
     <?php if (isset($_SESSION['toast'])): ?>
     <div id="toast" class="fixed bg-gray-800 text-white px-5 py-3 rounded-lg shadow-lg z-50">
@@ -17,6 +17,6 @@
         <input type="text" name="nom" placeholder="Votre nom" class="w-full border px-4 py-2 rounded-lg" required>
         <input type="email" name="email" placeholder="Votre email" class="w-full border px-4 py-2 rounded-lg" required>
         <textarea placeholder="Votre message" name="desc" class="w-full border px-4 py-2 rounded-lg min-h-[50px]" required></textarea>
-        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Envoyer</button>
+        <button type="submit" class=" w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Envoyer</button>
     </form>
 </section>
