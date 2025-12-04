@@ -1,13 +1,18 @@
 <?php 
 include_once __DIR__ . "/assets/library.php";
 
-$pages=['about','contact','home','services'];
- 
-
 $data= json_decode(file_get_contents(__DIR__."/data/data_service.json"));
 
+$pages=['about','contact','home','services'];
+ 
+$page=trim($_SERVER['REQUEST_URI'], '/');
+$page=$page?:'home';
 
-$page=page_manipul($pages,'home');
+if(!in_array($page,$pages)){
+    $page='404';
+}
+
+
 
  include __DIR__ .'/templates/layout.php';
 

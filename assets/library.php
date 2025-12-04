@@ -1,11 +1,10 @@
 <?php
-function page_manipul($pages,$default='home'){
 
-    $page = $_REQUEST['page'] ?? $default;
+$url = parse_url($_SERVER['REQUEST_URI']);
+$file=__DIR__.$url['path'];
 
-    if(!in_array($page,$pages)){
-        return 404;
-    }
-    return $page;
+if (is_file($file)) {
+    return false; 
+    
 }
 ?>
