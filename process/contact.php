@@ -11,5 +11,4 @@ if (empty($nom) || empty($email) || empty($desc)) {
 } else {
     $_SESSION['toast'] ="Message envoyer avec succes !!";
 }
-mail($email,"nouveau message dans le contact",$desc,$header);
 ?>

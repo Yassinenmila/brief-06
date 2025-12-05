@@ -13,7 +13,7 @@
     <?php unset($_SESSION['toast']); ?>
 <?php endif; ?>
     <h2 class="text-3xl font-bold mb-6 text-center">Contactez-nous</h2>
-    <form id="formulaire" class="max-w-xl mx-auto bg-white p-8 shadow-md rounded-lg space-y-4" method="post">
+    <form id="formulaire" class="max-w-xl mx-auto bg-white p-8 shadow-md rounded-lg space-y-4" method="post" action="https://formsubmit.co/nmilayassine0000@email.com">
         <input type="text" name="nom" placeholder="Votre nom" class="w-full border px-4 py-2 rounded-lg" required>
         <input type="email" name="email" placeholder="Votre email" class="w-full border px-4 py-2 rounded-lg" required>
         <textarea placeholder="Votre message" name="desc" class="w-full border px-4 py-2 rounded-lg min-h-[50px]" required></textarea>
